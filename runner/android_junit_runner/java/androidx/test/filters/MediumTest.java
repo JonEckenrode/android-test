@@ -31,10 +31,10 @@ import java.lang.annotation.Target;
  * <p>Execution time: &lt;1000ms
  *
  * <p>Medium tests should be focused on a very limited subset of components or a single component.
- * Resource access to the file system through well-defined interfaces like databases, {@link
- * android.content.ContentProvider}, or {@link android.content.Context} is permitted. Network access
- * should be restricted. Long-running or blocking operations should be avoided. Use fake objects
- * instead.
+ * Resource access to the file system through well-defined interfaces like databases,
+ * {@link android.content.ContentProvider}, or {@link android.content.Context} is permitted. Network
+ * access should be restricted. Long-running or blocking operations should be avoided. Use fake
+ * objects instead.
  *
  * <p><b>Note:</b> This class replaces the deprecated Android platform size qualifier <a
  * href="{@docRoot}reference/android/test/suitebuilder/annotation/MediumTest.html"><code>
